@@ -1,5 +1,4 @@
-# CV-Drowsy-Driver-Detection-System
-# Drowsy Driver Detection System
+# CV Drowsy Driver Detection System
 
 A real-time computer vision system that monitors a driver's eyes via webcam and triggers an audio alert when drowsiness is detected — before an accident happens.
 
