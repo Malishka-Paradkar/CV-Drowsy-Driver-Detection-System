@@ -1,17 +1,17 @@
 # CV-Drowsy-Driver-Detection-System
-# 😴 Drowsy Driver Detection System
+# Drowsy Driver Detection System
 
 A real-time computer vision system that monitors a driver's eyes via webcam and triggers an audio alert when drowsiness is detected — before an accident happens.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Driver drowsiness is responsible for a significant number of road accidents worldwide. Most drivers don't realise they are falling asleep until it's too late. This project addresses that gap by providing a low-cost, webcam-based early-warning system.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The system uses the **Eye Aspect Ratio (EAR)** — a simple yet effective metric:
 
@@ -29,7 +29,7 @@ MediaPipe FaceMesh provides 468 facial landmarks at real-time speed, from which 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 drowsy-driver-detection/
@@ -42,7 +42,7 @@ drowsy-driver-detection/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Clone the repository
 ```bash
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 # Basic — uses default webcam (index 0)
@@ -86,7 +86,7 @@ python main.py --no-landmarks
 
 ---
 
-## 📊 HUD Explanation
+## HUD Explanation
 
 | Element | Meaning |
 |---------|---------|
@@ -97,7 +97,7 @@ python main.py --no-landmarks
 
 ---
 
-## 🔧 Tuning Parameters
+## Tuning Parameters
 
 Edit the constants at the top of `main.py`:
 
@@ -109,7 +109,7 @@ Edit the constants at the top of `main.py`:
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -119,7 +119,7 @@ Edit the constants at the top of `main.py`:
 
 ---
 
-## 📌 Limitations
+## Limitations
 
 - Requires good lighting and a front-facing camera
 - May not work well with some glasses or extreme head angles
@@ -127,6 +127,6 @@ Edit the constants at the top of `main.py`:
 
 ---
 
-## 📜 License
+## License
 
 MIT — free to use, modify, and distribute.
